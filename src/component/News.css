@@ -1,0 +1,20 @@
+.ka {
+    position: relative;
+  }
+  .ka {
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    color: #176c0d;
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+  }
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
+  .ma{
+    color: #176c0d;
+  }
